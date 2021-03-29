@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.garjoo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:19:5-66
+14-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:19:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:4:6-81
+15-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:4:23-78
+16
+17    <queries>
+17-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:5:7-10:17
+18        <intent>
+18-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:6:8-9:17
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:7:9-68
+19-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:7:17-65
+20
+21            <data android:mimeType="*/*" />
+21-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:8:9-39
+21-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:8:15-37
+22        </intent>
+23        <intent>
+23-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:6:8-9:17
+24            <action android:name="android.intent.action.GET_CONTENT" />
+24-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:7:9-68
+24-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:7:17-65
+25
+26            <data android:mimeType="*/*" />
+26-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:8:9-39
+26-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:8:15-37
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:20:5-80
+30-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:20:22-78
+31
+32    <application
+32-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:21:5-59:19
+33        android:name="io.flutter.app.FlutterApplication"
+33-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:22:9-57
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] /home/rabin/.gradle/caches/transforms-2/files-2.1/ce1635782ed616d72db5bb7f69df3596/core-1.1.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:24:9-43
+37        android:label="garjoo" >
+37-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:23:9-31
+38        <activity
+38-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:25:9-53:20
+39            android:name="com.example.garjoo.MainActivity"
+39-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:26:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:29:13-163
+41            android:hardwareAccelerated="true"
+41-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:30:13-47
+42            android:launchMode="singleTop"
+42-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:27:13-43
+43            android:theme="@style/LaunchTheme"
+43-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:28:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:31:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+52-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:36:13-39:17
+53                android:name="io.flutter.embedding.android.NormalTheme"
+53-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:37:15-70
+54                android:resource="@style/NormalTheme" />
+54-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:38:15-52
+55            <!--
+56                 Displays an Android View that continues showing the launch screen
+57                 Drawable until Flutter paints its first frame, then this splash
+58                 screen fades out. A splash screen is useful to avoid any visual
+59                 gap between the end of Android's launch screen and the painting of
+60                 Flutter's first frame.
+61            -->
+62            <meta-data
+62-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:45:13-48:17
+63                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+63-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:46:15-79
+64                android:resource="@drawable/launch_background" />
+64-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:47:15-61
+65
+66            <intent-filter>
+66-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:49:13-52:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:50:17-68
+67-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:50:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:51:17-76
+69-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:51:27-74
+70            </intent-filter>
+71        </activity>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+76-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:56:9-58:33
+77            android:name="flutterEmbedding"
+77-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:57:13-44
+78            android:value="2" />
+78-->/home/rabin/Desktop/garjoo/garjoo/android/app/src/main/AndroidManifest.xml:58:13-30
+79    </application>
+80
+81</manifest>
